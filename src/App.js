@@ -1,11 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
-import './components/Simulator'
-import Simulator from './components/Simulator';
+import OSSimulator from './components/OSSimulator';
+
 function App() {
   return (
     <div >
-      <Simulator/>
+      <OSSimulator/>
     </div>
   );
 }
